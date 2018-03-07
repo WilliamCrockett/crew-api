@@ -1,4 +1,4 @@
-<% project_name = 'rails-api-practice' %>
+<% project_name = 'crew-api' %>
 
 default: &default
   adapter: postgresql
