@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require 'pry'
-
 class CrewsController < ProtectedController
   before_action :set_crew, only: [:show, :update, :destroy]
 
