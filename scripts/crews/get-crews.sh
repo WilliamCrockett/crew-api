@@ -7,4 +7,4 @@ curl "http://localhost:4741/crews" \
 
 echo
 
-# TOKEN="BAhJIiU0NDIwNzJjMjJhNTkzYzFmYjQwZjRiOWI0ZDNlMmI0NgY6BkVG--abe630c6428073d5dbe5b1c2d5b9117163611b8d" sh scripts/crews/get-crews.sh
+# TOKEN="BAhJIiVlMzFhMzA4ZWE2NmUzYTg4NTM1MWVjOGEwMTk2NGRjNAY6BkVG--baefdb1382cd0485b416a778ed807ec1c68ac413" sh scripts/crews/get-crews.sh
