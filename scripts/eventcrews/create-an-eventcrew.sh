@@ -8,7 +8,7 @@ curl "http://localhost:4741/event_crews" \
   --data '{
     "event_crew": {
       "event_id": "'"${EID}"'",
-      "crew_id": "'"${CID}"'",
+      "crew_id": "'"${CID}"'"
     }
   }'
 

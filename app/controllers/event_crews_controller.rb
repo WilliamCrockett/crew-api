@@ -2,6 +2,13 @@
 
 class EventCrewsController < ProtectedController
   before_action :set_event_crew, only: [:show, :update, :destroy]
+  before_action :set_event_id, only: [:getCrewsByEID]
+
+  # GET /event_crews_by_id/1 this gets all the crew for current event
+  def getCrewsByEID # need help here
+    p @event
+    @event_crews = @event.crews
+  end
 
   # GET /event_crews
   def index
@@ -41,9 +48,13 @@ class EventCrewsController < ProtectedController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
+    # Use callbacks to share common setup or constraints between actions
     def set_event_crew
       @event_crew = current_user.event_crews.find(params[:id])
+    end
+
+    def set_event_id
+      @event = current_user.event.find(params[:event_id])
     end
 
     # Only allow a trusted parameter "white list" through.

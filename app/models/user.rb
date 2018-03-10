@@ -5,4 +5,5 @@ class User < ApplicationRecord
   has_many :examples
   has_many :crews
   has_many :events
+  has_many :event_crews
 end
