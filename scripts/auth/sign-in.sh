@@ -14,3 +14,4 @@ curl "http://localhost:4741/sign-in" \
 echo
 
 # EMAIL="william@sailing.co.za" PASSWORD="1" sh scripts/auth/sign-in.sh
+# EMAIL="old@new" PASSWORD="1" sh scripts/auth/sign-in.sh
