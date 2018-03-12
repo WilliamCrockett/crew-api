@@ -1,6 +1,6 @@
 #!/bin/bash
 
-curl "http://localhost:4741/event_crews/100" \
+curl "http://localhost:4741/crews?event_id=100" \
   --include \
   --request GET \
   --header "Content-Type: application/json" \

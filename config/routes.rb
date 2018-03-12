@@ -14,5 +14,4 @@ Rails.application.routes.draw do
   delete '/sign-out' => 'users#signout'
   patch '/change-password' => 'users#changepw'
   get '/get-last' => 'events#getlast'
-  get '/event-crews/:id' => 'event_crews#getCrewsByEID'
 end

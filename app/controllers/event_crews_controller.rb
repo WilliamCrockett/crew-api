@@ -4,11 +4,6 @@ class EventCrewsController < ProtectedController
   before_action :set_event_crew, only: [:show, :update, :destroy]
   before_action :set_event_id, only: [:getCrewsByEID]
 
-  # GET /event_crews_by_id/1 this gets all the crew for current event
-  def getCrewsByEID # need help here
-    p @event
-    @event_crews = @event.crews
-  end
 
   # GET /event_crews
   def index

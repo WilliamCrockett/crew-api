@@ -5,9 +5,18 @@ class CrewsController < ProtectedController
 
   # GET /crews
   def index
-    @crews = current_user.crews.all # so that only the current users crew are returned
-    # @crews = Crew.all
+    p 'start looking below here'
+    p params
 
+    if (params[:event_id])
+      p 'inside if statement with event id of'
+      p params[:event_id]
+      @crews = Event.find(params[:event_id]).crews
+    else
+      @crews = current_user.crews.all # so that only the current users crew are returned
+    end
+    p 'look below here for crews'
+    p @crews
     render json: @crews
   end
 
