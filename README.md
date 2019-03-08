@@ -1,8 +1,10 @@
-# Welcome to Crew
-## A simple web app designed to help you manage your crew lists for events
-### Currently this is designed with a South African use case in mind, but I plan to update that in future versions.
-### [link to front end project] (https://github.com/WilliamCrockett/crew)
-### [link to deployed version] (https://williamcrockett.github.io/Crew/)
+# Welcome to Coach
+## A simple web app designed to help you manage your training sessions
+### Currently designed for the RSA Olympic Sailing team. I plan to extend it to other sports in the future.
+
+### [link to front end repo] (https://github.com/WilliamCrockett/coach)
+### [link to deployed-api] (https://coach-api.herokuapp.com/)
+### [link to deployed version] (https://coach.iamwilliam.co.za)
 
 ___
 
